@@ -10,6 +10,3 @@ mnist_params: 在MNIST上训练simpleNet后保存下来的checkpoint。
 grod.py: 继承paddle的optimizer，grod算法实现。
 cifar.py: 基于grod算法训练CIFAR10
 mnist.py: 基于grod算法训练mnist
-
-![image](https://user-images.githubusercontent.com/1193577/163675326-0e34c9d2-e20a-4f6a-9d83-5b9ed8b0aa2e.png)
-
