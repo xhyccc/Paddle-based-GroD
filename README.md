@@ -1,4 +1,6 @@
-This is the official site for PaddlePaddle-based implementation of the paper "GrOD: Deep Learning with Gradients Orthogonal Decomposition for Knowledge Transfer, Distillation, and Adversarial Training" published at ACM TKDD 2022.
+This is the official site for PaddlePaddle-based implementation of the paper "GrOD: Deep Learning with Gradients Orthogonal Decomposition for Knowledge Transfer, Distillation, and Adversarial Training" published at ACM TKDD 2022. Details of reference are as follows.
+
+Haoyi Xiong, Ruosi Wan, Jian Zhao, Zeyu Chen, Xingjian Li, Zhanxing Zhu, and Jun Huan. GroD: Deep Learning with Gradients Orthogonal Decomposition for Knowledge Transfer, Distillation, and Adversarial Training. ACM Transactions on Knowledge Discovery from Data (TKDD-22), 2022, ACM.
 
 
 Models：存放了两个基于paddle动态图的神经网络。
