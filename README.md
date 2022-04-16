@@ -6,11 +6,13 @@ Haoyi Xiong, Ruosi Wan, Jian Zhao, Zeyu Chen, Xingjian Li, Zhanxing Zhu, and Jun
 Image: 手写数字的一个样本，用来做模型评估，检测model的prediction输出
 
 Models：存放了两个基于paddle动态图的神经网络。
-	simpleNet: paddle 官方教程提供的model，用来训练MNIST，模型简单，训练速度快，具体动态图可以移步到动态图教程
-https://www.paddlepaddle.org.cn/documentation/docs/zh/user_guides/howto/dygraph/DyGraph.html
-	ResNet：根据https://github.com/PaddlePaddle/models/tree/develop/dygraph/resnet提取出来的。
 
-resnet_params: 在flower数据集上训练ResNet50后保存下来的checkpoint。
+Models/simpleNet: paddle 官方教程提供的model，用来训练MNIST，模型简单，训练速度快，具体动态图可以移步到动态图教程
+https://www.paddlepaddle.org.cn/documentation/docs/zh/user_guides/howto/dygraph/DyGraph.html
+
+Models/ResNet：根据https://github.com/PaddlePaddle/models/tree/develop/dygraph/resnet提取出来的。
+
+resnet_params: 在flower数据集上训练ResNet50后保存下来的checkpoint。(large file please query email for details.)
 
 mnist_params: 在MNIST上训练simpleNet后保存下来的checkpoint。
 
